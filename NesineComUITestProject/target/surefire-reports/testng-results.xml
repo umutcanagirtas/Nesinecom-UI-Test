@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Nesine Com Test Suite" duration-ms="13153" started-at="2022-10-10T14:34:33 EET" finished-at="2022-10-10T14:34:46 EET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@29ba4338]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="NesineComUITestProject" duration-ms="13153" started-at="2022-10-10T14:34:33 EET" finished-at="2022-10-10T14:34:46 EET">
+      <class name="testRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@29ba4338]" name="setUpClass" is-config="true" duration-ms="422" started-at="2022-10-10T14:34:33 EET" finished-at="2022-10-10T14:34:34 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4fe767f3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@29ba4338]" name="runScenario" duration-ms="12670" started-at="2022-10-10T14:34:34 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-10T14:34:46 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Firefox Layout Testing for Login Button NesineCom"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[NesineComLayoutTest]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Layout test failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Layout test failed
+at org.testng.Assert.fail(Assert.java:99)
+at helpers.GalenFramework.checkLayout(GalenFramework.java:27)
+at stepDefinition.NesineComSteps.checkLayoutLoginButton(NesineComSteps.java:135)
+at ✽.Check Layout Login Button(file:///C:/Users/testinium/IdeaProjects/NesineComUITestProject/src/main/java/features/nesineComFeatures/NesineComLayoutTest.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@29ba4338]" name="runScenario" duration-ms="12670" started-at="2022-10-10T14:34:34 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-10T14:34:46 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Chrome Layout Testing for Login Button NesineCom"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[NesineComLayoutTest]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Layout test failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Layout test failed
+at org.testng.Assert.fail(Assert.java:99)
+at helpers.GalenFramework.checkLayout(GalenFramework.java:27)
+at stepDefinition.NesineComSteps.checkLayoutLoginButton(NesineComSteps.java:135)
+at ✽.Check Layout Login Button(file:///C:/Users/testinium/IdeaProjects/NesineComUITestProject/src/main/java/features/nesineComFeatures/NesineComLayoutTest.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@29ba4338]" name="tearDownClass" is-config="true" duration-ms="21" started-at="2022-10-10T14:34:46 EET" finished-at="2022-10-10T14:34:46 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- NesineComUITestProject -->
+  </suite> <!-- Nesine Com Test Suite -->
+</testng-results>

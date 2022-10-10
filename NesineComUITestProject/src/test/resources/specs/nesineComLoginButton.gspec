@@ -1,0 +1,7 @@
+@objects
+    login_button        xpath   //a[text()='GİRİŞ']
+
+= Main section =
+    login_button:
+        width 58px
+        height 28px
